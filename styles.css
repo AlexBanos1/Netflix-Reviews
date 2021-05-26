@@ -1,0 +1,41 @@
+body {
+    background-color:rgb(24, 24, 24);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.logo {
+    cursor: pointer;
+    height: 37px;
+    width: 37px;
+}
+
+.nav_links {
+    background-color:black;
+    list-style-type: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: yellow;
+}
+
+li a {
+    color: greenyellow;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+header {
+    display: flex;
+    align-items:center;
+    padding: 30px 10%;
+}
