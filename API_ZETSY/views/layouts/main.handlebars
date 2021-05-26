@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+ <html>
+     <head>
+         <title>Zesty</title>
+         <link rel="stylesheet" href="css/style.css">
+     </head>
+     <body>
+         <header class = "logo">
+            <a href ="#"> <img src ="/images/logo.png" width = "120" height= "120" class="logo" alt="Zesty logo"/> </a>
+
+             <nav>
+                 <ul class="nav_links">
+                     <li><a href="http://localhost:3001">Home</a></li>
+                     
+                     <li><a href="#">Reviews</a>
+                    
+                     <li><a href="http://localhost:3001/contact">Contacts</a></li>
+
+                     <li><button class="light-mode-bt" onclick="lightMode()">Toggle Light Mode</button></li>
+             </nav>
+        </header>
+
+    {{{ body }}}    
+
+
+        <script type="text/javascript">
+            
+            function lightMode() {
+                var element = document.body;
+                element.classList.toggle("light-mode");
+            }
+
+        </script>
+     </body>
+ </html> 
